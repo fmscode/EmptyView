@@ -1,5 +1,7 @@
 PODS:
-  - EmptyView (0.1.0)
+  - BorderButton (0.1.0)
+  - EmptyView (0.1.0):
+    - BorderButton (~> 0.1.0)
 
 DEPENDENCIES:
   - EmptyView (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EmptyView: a6eed97c40670a2b5ce3c1acee7d931922ea3cbb
+  BorderButton: 9d972db20279ee541aea90c6fbae60bff754dfc4
+  EmptyView: cc193374e82d6b4640ae8ce206be35fbc12c10e6
 
 COCOAPODS: 0.33.1

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B90FB948D9FF473BA2FF6B44"
-               BuildableName = "libPods-EmptyView.a"
-               BlueprintName = "Pods-EmptyView"
+               BlueprintIdentifier = "6ECD3AA32A8F47039849792F"
+               BuildableName = "libPods-BorderButton.a"
+               BlueprintName = "Pods-BorderButton"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

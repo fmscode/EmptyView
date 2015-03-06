@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes'
   s.resources = 'Assets/*.png'
-
+  s.ios.dependency 'BorderButton', '~> 0.1.0'
 end

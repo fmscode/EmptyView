@@ -6,6 +6,12 @@
 // project.
 
 
+// BorderButton
+#define COCOAPODS_POD_AVAILABLE_BorderButton
+#define COCOAPODS_VERSION_MAJOR_BorderButton 0
+#define COCOAPODS_VERSION_MINOR_BorderButton 1
+#define COCOAPODS_VERSION_PATCH_BorderButton 0
+
 // EmptyView
 #define COCOAPODS_POD_AVAILABLE_EmptyView
 #define COCOAPODS_VERSION_MAJOR_EmptyView 0

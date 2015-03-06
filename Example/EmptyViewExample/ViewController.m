@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <EmptyView.h>
 
 @interface ViewController ()
-
+- (IBAction)reloadEvents:(id)sender;
 @end
 
 @implementation ViewController
@@ -18,8 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    EmptyView *emptyView = [[EmptyView alloc] initWithParentController:self andActionSelector:@selector(reloadEvents:)];
+    emptyView.title = @"No Events";
+    emptyView.buttonTitle = @"Reload";
+    [emptyView show];
+    
 }
-
+- (IBAction)reloadEvents:(id)sender{
+    NSLog(@"Reload");
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

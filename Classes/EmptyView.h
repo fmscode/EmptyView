@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void (^Completion)();
+
 @interface EmptyView : UIView
 
+- (instancetype)initWithParentController:(UIViewController *)viewController andActionCallback:(Completion)callback;
+
+@property (nonatomic,assign) NSString *title;
+@property (nonatomic,assign) NSString *buttonTitle;
+
+- (void)show;
+- (void)dismiss;
 @end

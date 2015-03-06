@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-BorderButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-EmptyView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8E3281542E1042B28DA96178</key>
+		<key>6ECD3AA32A8F47039849792F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D594BE22FF584C41BEF28320</key>
+		<key>9F5B90ADB9724BF493FA72D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B90FB948D9FF473BA2FF6B44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
